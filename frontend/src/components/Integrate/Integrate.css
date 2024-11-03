@@ -1,0 +1,123 @@
+.integrate{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.integrate .first-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.integrate .first-container .text{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 65%;
+    text-align: center;
+    gap: 15px;
+}
+
+.integrate .first-container .text p{
+    font-size: 12px;
+    color: rgb(113, 113, 113);
+}
+.integrate .first-container .icon-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.integrate .first-container .icon-box .icon-card{
+    background-color: rgb(235, 242, 246);
+    border-radius: 50px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.integrate .first-container .icon-box .icon-card p{
+    font-size: 12px;
+    color: rgb(113, 113, 113);
+
+}
+.integrate .first-container .action-box{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.integrate .first-container .action-box .one{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.integrate .first-container .action-box .two{
+    color: #8a48fb;
+    font-size: 12px;
+}
+.integrate .second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #8a48fb;
+    width: 100%;
+    padding: 50px;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+}
+
+.integrate .second-container .text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.integrate .second-container .text h1{
+    font-size: 28px;
+}
+
+.integrate .second-container .text p{
+    font-size: 12px;
+    font-weight: 300;
+}
+.integrate .second-container .btn{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.integrate .second-container .btn .one{
+    padding: 10px;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.integrate .second-container .btn .two{
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 12px;
+}

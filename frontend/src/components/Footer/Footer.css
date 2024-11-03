@@ -1,0 +1,230 @@
+.footer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    /* background-color: red; */
+    margin-bottom: 10px;
+}
+.footer .first-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    /* background-color: green; */
+    width: 100%;
+}
+
+.footer .first-content .left-side{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: yellow; */
+    
+    
+}
+.footer .first-content .left-side .logo-box{
+width: 150px;
+}
+.footer .first-content .left-side .logo-box img{
+    width: 50%;
+    }
+    
+    .footer .first-content .left-side p{
+      width: 80%;
+      font-size: 16px;
+      color: rgb(100, 100, 100);
+      line-height: 25px;
+    }
+
+    .footer .first-content .left-side .sub-container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer .first-content .left-side .sub-container p{
+        color: black;
+        font-weight: 400;
+    }
+
+    .footer .first-content .left-side .sub-container .btn-container{
+        display: flex;
+        gap:5px;
+    }
+    .footer .first-content .left-side .sub-container .btn-container input{
+        outline: none;
+        border: 0.5px solid rgb(207, 207, 207);
+        width: 240px;
+        padding:10px;
+        height: 30px;
+        border-radius: 5px;
+    }
+
+    .footer .first-content .left-side .sub-container .btn-container button{
+        outline: none;
+       border: none;
+        width: 90px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: #8a48fb;
+        color: white;
+    }
+
+
+.footer .first-content .right-side{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+   gap: 50px;
+   /* background-color: violet; */
+   align-items: center;
+   justify-content: end;
+  
+   
+}
+
+.footer .first-content .right-side .list-card{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.footer .first-content .right-side .list-card h3{
+    font-size: 18px;
+
+}
+
+.footer .first-content .right-side .list-card ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.footer .first-content .right-side .list-card ul li{
+    font-size: 15px;
+    color: rgb(149, 149, 149);
+}
+
+
+.footer .second-content{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+}
+
+.footer .second-content p{
+    font-size: 12px;
+    color: rgb(151, 151, 151);
+}
+.footer .second-content p span{
+    color: #8a48fb;
+}
+
+.footer .second-content .icons{
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width:1024px){
+    .footer .first-content .left-side p{
+        width: 100%;
+        font-size: 12px;
+        
+      }
+
+      .footer .first-content .right-side{
+       gap: 20px;
+       
+    }
+    
+    .footer .first-content .right-side .list-card{
+        
+        gap: 25px;
+    
+    }
+    
+    .footer .first-content .right-side .list-card h3{
+        font-size: 14px;
+    
+    }
+    
+    .footer .first-content .right-side .list-card ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    
+    .footer .first-content .right-side .list-card ul li{
+        font-size: 12px;
+        color: rgb(149, 149, 149);
+    }
+    
+}
+@media (max-width:768px){
+    .footer .first-content{
+        flex-direction: column;
+    }
+    .footer .second-content p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:375px){
+    .footer .first-content .left-side p{
+        width: 100%;
+        font-size: 12px;
+        line-height: 20px;
+        
+      }
+
+      .footer .first-content .right-side{
+       gap: 10px;
+       
+    }
+    
+    .footer .first-content .right-side .list-card{
+        
+        gap: 15px;
+    
+    }
+    
+    .footer .first-content .right-side .list-card h3{
+        font-size: 14px;
+    
+    }
+    
+    .footer .first-content .right-side .list-card ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    
+    .footer .first-content .right-side .list-card ul li{
+        font-size: 10px;
+        color: rgb(149, 149, 149);
+    }
+    .footer .second-content{
+    }
+    .footer .second-content p{
+        font-size: 7px;
+        flex: 1;
+    }
+    .footer .second-content .icons{
+flex: 1;
+
+    }
+    .footer .second-content .icons img{
+        width: 10px;
+    }
+}
